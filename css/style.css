@@ -1,0 +1,10 @@
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
+  body .buttons, body .output {
+    display: -ms-flexbox;
+    display: flex; }
+  body div button {
+    border: 3px solid orange; }

@@ -1,14 +1,25 @@
 * {
   font-size: 25px; }
 
-body {
+body .buttons {
+  height: 30vh;
+  width: 100%;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: center;
-      justify-content: center; }
-  body .buttons, body .output {
-    display: -ms-flexbox;
-    display: flex; }
-  body div button {
-    padding: 10px;
-    border: 3px solid orange; }
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
+body #output {
+  height: 70vh;
+  width: 100%;
+  margin-top: 5vh;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center; }
+
+body div button {
+  padding: 10px;
+  border: 3px solid orange; }
